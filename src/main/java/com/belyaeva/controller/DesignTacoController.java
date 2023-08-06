@@ -3,7 +3,7 @@ package com.belyaeva.controller;
 import com.belyaeva.model.Ingredient;
 import com.belyaeva.model.Taco;
 import com.belyaeva.model.TacoOrder;
-import com.belyaeva.storage.api.IngredientRepository;
+import com.belyaeva.storage.IngredientRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
 import javax.validation.Valid;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 

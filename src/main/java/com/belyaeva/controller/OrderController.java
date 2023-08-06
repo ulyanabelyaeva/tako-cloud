@@ -1,7 +1,7 @@
 package com.belyaeva.controller;
 
 import com.belyaeva.model.TacoOrder;
-import com.belyaeva.storage.api.OrderRepository;
+import com.belyaeva.storage.OrderRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

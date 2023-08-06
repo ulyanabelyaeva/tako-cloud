@@ -1,7 +1,7 @@
 package com.belyaeva.util;
 
 import com.belyaeva.model.Ingredient;
-import com.belyaeva.storage.api.IngredientRepository;
+import com.belyaeva.storage.IngredientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
